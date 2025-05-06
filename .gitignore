@@ -1,0 +1,5 @@
+# Исключить сгенерированные файлы
+/etc/nixos/hardware-configuration.nix
+/etc/nixos/configuration.nix.backup
+*.lock
+result
