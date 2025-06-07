@@ -8,7 +8,7 @@
     };
     plymouth = {
       enable = true;
-      theme = "bgrt";
+      theme = "spinner";
     };
     kernelParams = [
       "i915.enable_psr=0"

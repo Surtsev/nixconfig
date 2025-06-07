@@ -5,7 +5,7 @@
     users.Surtsev = {
       isNormalUser = true;
       shell = pkgs.zsh;
-      extraGroups = [ "wheel" "networkmanager" "video" "audio" ];
+      extraGroups = [ "wheel" "networkmanager" "vboxusers" "plugdev" "video" "audio" ];
       packages = with pkgs; [
         tree
       ];

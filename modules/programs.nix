@@ -2,11 +2,12 @@
 
 {
   programs = {
+    tmux.enable = true;
     zsh = {
       enable = true;
       enableCompletion = true;
       syntaxHighlighting.enable = true;
-      oh-my-zsh = {
+      ohMyZsh = {
         enable = true;
 	plugins = ["git"];
 	theme = "jispwoso";
@@ -16,7 +17,8 @@
 	edit = "sudo -e";
 	configure = "sudo nvim /etc/nixos/";
 	update = "sudo nixos-rebuild switch";
-	vim = "sudo nvim";
+	vim = "nvim";
+	off = "poweroff";
       };
     };
     firefox.enable = true;
@@ -33,5 +35,6 @@
       enable = true;
       enableSSHSupport = true;
     };
+
   };
 }
